@@ -29,8 +29,6 @@ Senior Full Stack Software Engineer with 13+ years of experience designing, buil
 
 ## Skills
 
-| Category | Technologies |
-|---|---|
 | **AI Tools** | Cursor, Claude |
 | **Frontend** | React, Redux, React Router, React Hooks, Apollo Client, GraphQL, Socket.IO, shadcn/ui, SASS/LESS |
 | **Backend** | Node.js, Express, REST API, Microservices |
