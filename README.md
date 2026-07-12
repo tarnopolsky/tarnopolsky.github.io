@@ -1,7 +1,7 @@
 # Natasha Tarnopolsky
 **Senior Full Stack Software Engineer**
 
-📞 (972) 54 815 0336 · ✉️ natashatarn@gmail.com · 🔗 [linkedin.com/in/tarnopolsky](https://linkedin.com/in/tarnopolsky)
+📞 (972) 54 815 0336 · ✉️ natashatarn@gmail.com · 🔗 [linkedin.com/in/tarnopolsky](https://www.linkedin.com/in/natasha-tarnopolsky-ba1a8289/)
 
 ---
 
