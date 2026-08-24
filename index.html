@@ -181,6 +181,63 @@
       line-height: 1.6;
     }
 
+    /* ── PROJECTS ── */
+    .projects {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .project {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+    }
+
+    .project-name {
+      font-weight: 600;
+      font-size: 15px;
+    }
+
+    .project-name a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .project-name a:hover { text-decoration: underline; }
+
+    .project-desc {
+      color: var(--ink-mid);
+      font-size: 14px;
+      line-height: 1.65;
+      margin-top: 3px;
+    }
+
+    .project-link {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--ink-light);
+      white-space: nowrap;
+    }
+
+    .project-link a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .project-link a:hover { text-decoration: underline; }
+
+    .soon {
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--ink-light);
+      border: 1px solid var(--rule);
+      border-radius: 3px;
+      padding: 2px 6px;
+      white-space: nowrap;
+    }
+
     /* ── EDUCATION ── */
     .edu-header {
       display: flex;
@@ -214,6 +271,7 @@
       .skill-row { grid-template-columns: 1fr; gap: 3px; }
       .skill-cat { color: var(--accent); }
       .edu-header { flex-direction: column; gap: 2px; }
+      .project { flex-direction: column; gap: 4px; }
     }
 
     @media print {
@@ -279,7 +337,7 @@
     </div>
   </section>
   <hr class="rule" />
-    <section>
+  <section>
     <div class="section-label">Education</div>
     <div class="edu-header">
       <div>
@@ -328,6 +386,26 @@
       <div class="skill-row">
         <div class="skill-cat">Other Tools</div>
         <div class="skill-list">GrowthBook, Elasticsearch, Lodash, Git, Jira, ESLint</div>
+      </div>
+    </div>
+  </section>
+  <hr class="rule" />
+  <section>
+    <div class="section-label">Personal Projects</div>
+    <div class="projects">
+      <div class="project">
+        <div>
+          <div class="project-name"><a href="https://grocery-app-eta-brown.vercel.app/" target="_blank" rel="noopener">Grocery App</a></div>
+          <div class="project-desc">A personal side project — a web app for managing grocery lists, built and deployed end to end.</div>
+        </div>
+        <div class="project-link"><a href="https://grocery-app-eta-brown.vercel.app/" target="_blank" rel="noopener">grocery-app-eta-brown.vercel.app&nbsp;↗</a></div>
+      </div>
+      <div class="project">
+        <div>
+          <div class="project-name">Hobby Blog</div>
+          <div class="project-desc">Personal blog about my hobbies and side interests — launching soon.</div>
+        </div>
+        <div class="project-link"><span class="soon">Coming soon</span></div>
       </div>
     </div>
   </section>
