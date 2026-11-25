@@ -77,6 +77,14 @@
     }
     .contact a:hover { text-decoration: underline; }
 
+    .cv-link { color: var(--ink-light); }
+    .cv-link a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid var(--rule);
+    }
+    .cv-link a:hover { border-bottom-color: var(--accent); }
+
     /* ── SECTIONS ── */
     section { margin-bottom: 36px; }
 
@@ -266,6 +274,7 @@
     @media print {
       body { background: white; padding: 0; font-size: 13px; }
       .page { max-width: 100%; }
+      .cv-link { display: none; }
     }
   </style>
 </head>
@@ -275,7 +284,7 @@
   <header>
       <div>
         <div class="name">Natasha Tarnopolsky</div>
-        <div class="title">Senior Full Stack Software Engineer</div>
+        <div class="title">Senior Full Stack Software Engineer<span class="cv-link"> &nbsp;·&nbsp; <a href="Natasha_Tarnopolsky_CV.pdf" target="_blank" rel="noopener">CV PDF ↓</a></span></div>
     </div>
     <div class="contact">
       <div>📞 (972) 54 815 0336</div>
